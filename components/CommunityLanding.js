@@ -24,34 +24,54 @@ function CommunityLanding() {
           className="flex justify-between items-center flex-row w-[50%]"
         >
           <Button
+            sx={{
+              border: "2px solid #5F5E5E",
+              color: "#5F5E5E",
+            }}
             disableElevation
-            className="border-2 border-solid border-text_black text-text_black uppercase"
+            className="uppercase"
           >
             All
           </Button>
           <Button
+            sx={{
+              border: "2px solid #5F5E5E",
+              color: "#5F5E5E",
+            }}
             disableElevation
-            className="border-2 border-solid border-text_black text-text_black uppercase"
+            className="uppercase"
           >
-            Home Learning
+            home learning
           </Button>
           <Button
+            sx={{
+              border: "2px solid #5F5E5E",
+              color: "#5F5E5E",
+            }}
             disableElevation
-            className="border-2 border-solid border-text_black text-text_black uppercase"
+            className="uppercase"
           >
-            Activities
+            activities
           </Button>
           <Button
+            sx={{
+              border: "2px solid #5F5E5E",
+              color: "#5F5E5E",
+            }}
             disableElevation
-            className="border-2 border-solid border-text_black text-text_black uppercase"
+            className="uppercase"
           >
-            Parenting
+            parenting
           </Button>
           <Button
+            sx={{
+              border: "2px solid #5F5E5E",
+              color: "#5F5E5E",
+            }}
             disableElevation
-            className="border-2 border-solid border-text_black text-text_black uppercase"
+            className="uppercase"
           >
-            Phonics
+            phonics
           </Button>
         </Stack>
       </Box>

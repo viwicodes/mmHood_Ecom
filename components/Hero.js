@@ -33,11 +33,14 @@ function Hero() {
             <p className="font-mont italic text-[30px] uppercase font-medium text-text_black pb-5">
               Ignite Their Imagination
             </p>
+            {/* bg-[#FFD7A6] text-text_black  */}
             <Stack spacing={2} direction="row">
-              <Button
+              <Box
                 disableElevation
-                className="bg-[#FFD7A6] text-text_black font-mont font-semibold px-8 py-3 rounded-2xl"
+                className="font-mont font-semibold px-8 py-3 rounded-2xl"
                 sx={{
+                  backgroundColor:"#FFD7A6",
+                  color:"#5F5E5E",
                   display: {
                     lg: "block",
                     md: "block",
@@ -52,7 +55,7 @@ function Hero() {
                 variant="contained"
               >
                 Get Started
-              </Button>
+              </Box>
             </Stack>
           </Box>
         </Box>
