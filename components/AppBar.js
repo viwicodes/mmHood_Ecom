@@ -120,18 +120,12 @@ function ResponsiveAppBar() {
               </a>
             ))}
           </Box>
-          <Stack
-            spacing={2}
-            direction="row"
-            sx={{
-              backgroundColor: "#A0C4FF",
-              color: "white",
-            }}
-          >
-            <Button
-              disableElevation
+          <Stack spacing={2} direction="row">
+            <Box
               className="font-mont font-semibold"
               sx={{
+                backgroundColor: "#A0C4FF",
+                color: "white",
                 display: { lg: "block", md: "block", sm: "none", xs: "none" },
                 ":hover": {
                   bgcolor: "pink",
@@ -141,7 +135,7 @@ function ResponsiveAppBar() {
               variant="contained"
             >
               Get Started
-            </Button>
+            </Box>
           </Stack>
         </Toolbar>
       </Container>
