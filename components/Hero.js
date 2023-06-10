@@ -1,0 +1,79 @@
+import { Box, Grid, Stack, Button } from "@mui/material";
+import React from "react";
+
+function Hero() {
+  return (
+    <>
+      <Box
+        className="bg-blue"
+        sx={{
+          height: "90vh",
+          display: "flex",
+          justifyContent: "space-around",
+          alignItems: "center",
+        }}
+      >
+        {/* Hero Right Start */}
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            // flexDirection: "column",
+            width: "50%",
+          }}
+        >
+          <Box className="flex flex-col w-[70%]">
+            <p className="font-mont italic text-[30px] uppercase font-medium text-text_black pb-2">
+              shipping all india
+            </p>
+            <h1 className="font-mont text-[50px] uppercase font-black text-text_black leading-[50px] pb-2">
+              Discover the Perfect Toys for Your Little Ones!
+            </h1>
+            <p className="font-mont italic text-[30px] uppercase font-medium text-text_black pb-5">
+              Ignite Their Imagination
+            </p>
+            <Stack spacing={2} direction="row">
+              <Button
+                disableElevation
+                className="bg-[#FFD7A6] text-text_black font-mont font-semibold px-8 py-3 rounded-2xl"
+                sx={{
+                  display: {
+                    lg: "block",
+                    md: "block",
+                    sm: "none",
+                    xs: "none",
+                  },
+                  ":hover": {
+                    bgcolor: "pink",
+                    color: "text_black",
+                  },
+                }}
+                variant="contained"
+              >
+                Get Started
+              </Button>
+            </Stack>
+          </Box>
+        </Box>
+        {/* Hero Right End */}
+
+        {/* Right Hero start */}
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignIterm: "center",
+            width: "50%",
+            height: "100%",
+          }}
+        >
+          <img src="/assets/main_hero.png" />
+        </Box>
+        {/* Right Hero End */}
+      </Box>
+    </>
+  );
+}
+
+export default Hero;
