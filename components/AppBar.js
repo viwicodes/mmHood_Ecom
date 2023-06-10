@@ -120,7 +120,7 @@ function ResponsiveAppBar() {
               </a>
             ))}
           </Box>
-          <Stack spacing={2} direction="row">
+          {/* <Stack spacing={2} direction="row">
             <Box
               className="font-mont font-semibold"
               sx={{
@@ -136,7 +136,7 @@ function ResponsiveAppBar() {
             >
               Get Started
             </Box>
-          </Stack>
+          </Stack> */}
         </Toolbar>
       </Container>
     </AppBar>
